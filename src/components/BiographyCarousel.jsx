@@ -29,13 +29,13 @@ export default function BiographyCarousel({ events }) {
         className="h-full p-6"
       >
         <div className="h-full flex flex-col">
-          <div className="text-sm text-primary dark:text-primary-light mb-2">
+          <div className="text-xl py- text-primary dark:text-primary-light mb-2">
             {currentEvent.date}
           </div>
-          <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">
+          <h3 className="text-2xl  mb-3 text-gray-900 dark:text-white">
             {currentEvent.title}
           </h3>
-          <p className="text-gray-600 dark:text-gray-300 text-sm">
+          <p className="text-gray-600 dark:text-gray-300 text-xl">
             {currentEvent.description}
           </p>
         </div>
@@ -50,7 +50,7 @@ export default function BiographyCarousel({ events }) {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
         </button>
-        <span className="text-sm text-gray-500 dark:text-gray-400">
+        <span className="text-xl text-gray-500 dark:text-gray-400">
           {currentIndex + 1} / {events.length}
         </span>
         <button

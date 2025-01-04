@@ -6,10 +6,10 @@ import Logo from '../assets/images/logomanu.png';
 
 const pages = [
   { title: 'Home', path: '/' },
-  { title: 'Projects', path: '/benti-grid' },
-  { title: 'Biography', path: '/biography' },
+  { title: 'Progetti', path: '/benti-grid' },
+  { title: 'La mia Storia', path: '/biography' },
   { title: 'Shop', path: '/shop' },
-  { title: 'Contact', path: '/contact' },
+  { title: 'Contatti', path: '/contact' },
 ];
 
 export default function Header({ darkMode, toggleDarkMode }) {
@@ -27,12 +27,12 @@ export default function Header({ darkMode, toggleDarkMode }) {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white dark:bg-gray-900 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex-shrink-0 cursor-pointer flex items-center" onClick={() => navigate('/')}>
-            <img src={Logo} alt="Logo" className="logo-custom" />
-            <span className="text-lg text-gray-900 dark:text-white">
-              Orma Il Viandante
+        <div className="flex-shrink-0 cursor-pointer flex items-center -ml-8" onClick={() => navigate('/')}>
+          <img src={Logo} alt="Logo" className="logo-custom" />
+            <span className="text-xl sm:text-2xl md:text-2xl text-gray-900 dark:text-white">
+          Orma Il Viandante
             </span>
-          </div>
+        </div>
 
           <nav className="hidden md:flex space-x-4 -ml-16">  {/* Aggiunto -ml-16 per spostare tutta la nav a sinistra */}
   {pages.map((page) => (

@@ -21,7 +21,7 @@ export default function Shop() {
       <div className="min-h-screen bg-white dark:bg-gray-900">
         <div className="container mx-auto px-4 sm:px-6 md:px-8 py-8">
           <div className="flex justify-between items-center mb-8">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-playfair font-semibold text-gray-900 dark:text-white">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl text-gray-900 dark:text-white">
               Shop
             </h1>
             <button

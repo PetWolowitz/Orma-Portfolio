@@ -59,7 +59,7 @@ export default function ContactForm() {
       )}
       
       <div className="mb-4">
-        <label htmlFor="name" className="block text-sm font- text-gray-700 dark:text-gray-300 mb-1">
+        <label htmlFor="name" className="block text-xl  text-gray-700 dark:text-gray-300 mb-1">
           Name *
         </label>
         <input
@@ -80,7 +80,7 @@ export default function ContactForm() {
       </div>
       
       <div className="mb-4">
-        <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+        <label htmlFor="email" className="block text-xl text-gray-700 dark:text-gray-300 mb-1">
           Email *
         </label>
         <input
@@ -101,7 +101,7 @@ export default function ContactForm() {
       </div>
       
       <div className="mb-6">
-        <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+        <label htmlFor="message" className="block text-xl  text-gray-700 dark:text-gray-300 mb-1">
           Message *
         </label>
         <textarea
@@ -123,7 +123,7 @@ export default function ContactForm() {
       
       <button
         type="submit"
-        className="w-full py-3 px-4 bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors duration-200"
+        className="w-full text-lg py-3 px-4 bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors duration-200"
       >
         Send Message
       </button>

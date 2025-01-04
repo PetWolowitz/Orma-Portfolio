@@ -11,15 +11,15 @@ export default function Biography() {
       className="min-h-screen bg-white dark:bg-gray-900"
     >
       <div className="container mx-auto px-4 sm:px-6 md:px-8 py-8">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-playfair font-semibold text-center mb-8 sm:mb-12 md:mb-16 text-gray-900 dark:text-white">
-          Biography
+        <h1 className="text-3xl sm:text-4xl md:text-5xl text-center mb-8 sm:mb-12 md:mb-16 text-gray-900 dark:text-white">
+          La mia Storia
         </h1>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Left column - Introduction */}
           <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-xl">
             <div className="prose dark:prose-invert max-w-none">
-              <p className="text-gray-600 dark:text-gray-300 whitespace-pre-line">
+              <p className="text-gray-600 text-2xl dark:text-gray-300 whitespace-pre-line">
                 {biographyIntro.text}
               </p>
             </div>
@@ -33,11 +33,11 @@ export default function Biography() {
 
         {/* Bottom section - Tools and Skills */}
         <div className="mt-12 bg-white dark:bg-gray-800 p-6 rounded-lg shadow-xl">
-          <h2 className="text-2xl font-playfair font-semibold mb-4 text-gray-900 dark:text-white">
-            Tools & Expertise
+          <h2 className="text-2xl mb-4 text-gray-900 dark:text-white">
+            Strumenti & Competenze
           </h2>
           <div className="prose dark:prose-invert max-w-none">
-            <p className="text-gray-600 dark:text-gray-300 whitespace-pre-line">
+            <p className="text-gray-600 text-2xl dark:text-gray-300 whitespace-pre-line">
               {biographyTools}
             </p>
           </div>

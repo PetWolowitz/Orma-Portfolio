@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export default function Footer() {
   return (
-    <footer className="py-8 bg-white dark:bg-gray-900">
+    <footer className="py-6 bg-white dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-center space-x-6 mb-4">
           <motion.a
@@ -20,7 +20,7 @@ export default function Footer() {
 
           {/* Add other social media icons similarly */}
         </div>
-        <p className="text-center text-xl   text-gray-500 dark:text-gray-400">
+        <p className="text-center text-xl  font-semibold text-gray-500 dark:text-gray-400">
           © {new Date().getFullYear()} Orma Il Viandante. All rights reserved.
         </p>
       </div>

@@ -14,7 +14,7 @@ export default function BentiCard({ item, onClick }) {
         className="w-full h-[200px] sm:h-[250px] md:h-[300px] object-cover"
       />
       <div className="p-4">
-        <h3 className="text-xl sm:text-2xl font-playfair font-semibold mb-2">
+        <h3 className="text-xl sm:text-2xl font-playfair  mb-2">
           {item.title}
         </h3>
         <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
