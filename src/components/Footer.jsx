@@ -20,8 +20,8 @@ export default function Footer() {
 
           {/* Add other social media icons similarly */}
         </div>
-        <p className="text-center text-sm text-gray-500 dark:text-gray-400">
-          © {new Date().getFullYear()} Artist Name. All rights reserved.
+        <p className="text-center text-xl   text-gray-500 dark:text-gray-400">
+          © {new Date().getFullYear()} Orma Il Viandante. All rights reserved.
         </p>
       </div>
     </footer>

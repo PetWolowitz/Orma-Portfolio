@@ -59,7 +59,7 @@ export default function ContactForm() {
       )}
       
       <div className="mb-4">
-        <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+        <label htmlFor="name" className="block text-sm font- text-gray-700 dark:text-gray-300 mb-1">
           Name *
         </label>
         <input

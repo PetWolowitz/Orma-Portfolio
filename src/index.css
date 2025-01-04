@@ -12,6 +12,16 @@
   src: url('/fonts/Graffiti.otf') format('opentype');
 }
 
+.text-shadow-custom {
+  text-shadow: 6px 6px 10px rgba(0, 0, 0, 1);
+}
+
+.logo-custom {
+  width: auto;
+  height: 50px;
+  object-fit: contain;
+}
+
 @layer base {
   html {
     /* Font Kaus come font di default */
