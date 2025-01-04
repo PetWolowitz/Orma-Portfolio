@@ -19,7 +19,7 @@ export default function BackgroundCarousel({ images }) {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000);
+    }, 4500);
 
     return () => clearInterval(timer);
   }, [images.length]);

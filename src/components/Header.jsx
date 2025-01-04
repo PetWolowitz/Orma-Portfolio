@@ -28,7 +28,7 @@ export default function Header({ darkMode, toggleDarkMode }) {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 cursor-pointer" onClick={() => navigate('/')}>
             <span className="font-playfair font-bold text-lg text-gray-900 dark:text-white">
-              ARTIST NAME
+              Orma Il Viandante
             </span>
           </div>
 

@@ -9,11 +9,11 @@ export default function Home() {
         <BackgroundCarousel images={carouselImages} />
         
         <div className="relative container mx-auto px-4 sm:px-6 md:px-8 text-center text-white">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-playfair font-bold mb-6 drop-shadow-lg">
-            Artist Name
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-playfair font-bold mb-6 drop-shadow-lg ">
+            Orma Il Viandante
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl font-lato font-light tracking-wide max-w-3xl mx-auto px-4 sm:px-8">
-            Contemporary painter exploring the boundaries between abstract and figurative art
+            <span className="font-semibold">Artist</span> | <span className="font-semibold">Designer</span> | <span className="font-semibold">Painter</span>
           </p>
         </div>
       </div>

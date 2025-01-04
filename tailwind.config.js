@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'playfair': ['"Playfair Display"', 'serif'],
-        'lato': ['Lato', 'sans-serif'],
+        citystencil: ['CityStencil', 'sans-serif'],
+        graffiti: ['Graffiti', 'sans-serif'],
       },
       colors: {
         primary: {

@@ -1,7 +1,14 @@
 export const carouselImages = [
-  '/artwork/image1.jpg',
-  '/artwork/image2.jpg',
-  '/artwork/image3.jpg',
-  '/artwork/image4.jpg',
-  '/artwork/image5.jpg',
+  '/images/hero/image1.jpg',
+  '/images/hero/image2.jpg',
+  '/images/hero/image3.jpg',
+  '/images/hero/image4.jpg',
+  '/images/hero/image5.jpg',
+  '/images/hero/image6.jpg',
+  '/images/hero/image7.jpg',
+  '/images/hero/image8.jpg',
+  '/images/hero/image9.jpg',
+  '/images/hero/image10.jpg',
+  '/images/hero/image11.jpg',
+  
 ];

@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex justify-center space-x-6 mb-4">
           <motion.a
             whileHover={{ scale: 1.1 }}
-            href="https://instagram.com"
+            href="https://www.instagram.com/orma_the_wanderer/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300"

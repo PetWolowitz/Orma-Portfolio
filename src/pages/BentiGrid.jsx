@@ -14,7 +14,7 @@ export default function BentiGrid() {
   return (
     <PageTransition>
       <div className="container mx-auto px-4 sm:px-6 md:px-8">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-playfair font-semibold text-center mb-8 sm:mb-12 md:mb-16 text-gray-900 dark:text-white">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-playfair font-semibold text-center mb-8 sm:mb-12 md:mb-16 text-gray-900 dark:text-white font-graffiti">
           Project Categories
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">

@@ -2,25 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'CityStencil';
+  src: url('/fonts/CityStencil.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Graffiti';
+  src: url('/fonts/Graffiti.otf') format('opentype');
+}
+
 @layer base {
   html {
-    font-family: Lato, system-ui, sans-serif;
+    /* Font Kaus come font di default */
+    font-family: 'Graffiti', system-ui, sans-serif;
   }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Playfair Display", serif;
-  }
+
+  /* ExO2 Stencil per tutti i titoli */
+  h1, h2, h3, h4, h5, h6, 
+.navbar, nav, 
+.nav-link {
+  font-family: 'CityStencil', sans-serif;
+}
 }
 
 @layer components {
   .btn {
     @apply px-4 py-2 rounded-lg transition-colors duration-200;
   }
-  
+
   .btn-primary {
     @apply bg-primary text-white hover:bg-primary-dark;
   }
-  
+
   .container-padding {
     @apply px-4 sm:px-6 md:px-8;
   }
