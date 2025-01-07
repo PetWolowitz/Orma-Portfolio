@@ -6,7 +6,7 @@ export default function BentiCard({ item, onClick }) {
       whileHover={{ scale: 1.03 }}
       transition={{ duration: 0.2 }}
       onClick={onClick}
-      className="h-full bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden cursor-pointer"
+      className="h-full bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden cursor-pointer "
     >
       <img
         src={item.image}
@@ -17,7 +17,7 @@ export default function BentiCard({ item, onClick }) {
         <h3 className="text-xl sm:text-2xl font-playfair  mb-2">
           {item.title}
         </h3>
-        <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
+        <p className="text-sm sm:text-base font-semibold text-gray-600 dark:text-gray-400">
           {item.description}
         </p>
       </div>

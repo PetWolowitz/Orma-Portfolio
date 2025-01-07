@@ -4,18 +4,18 @@ import { motion, AnimatePresence } from 'framer-motion';
 const slideVariants = {
   enter: (direction) => ({
     x: direction > 0 ? 1000 : -1000,
-    opacity: 0
+    opacity: 0,
   }),
   center: {
     zIndex: 1,
     x: 0,
-    opacity: 1
+    opacity: 1,
   },
   exit: (direction) => ({
     zIndex: 0,
     x: direction < 0 ? 1000 : -1000,
-    opacity: 0
-  })
+    opacity: 0,
+  }),
 };
 
 export default function ProjectCarousel({ projects }) {
@@ -29,18 +29,18 @@ export default function ProjectCarousel({ projects }) {
 
   return (
     <div className="relative w-full">
-      <div className="relative h-[400px] overflow-hidden rounded-lg shadow-xl">
+      <div className="relative h-[440px] overflow-hidden rounded-lg shadow-xl">
         <AnimatePresence initial={false} custom={direction}>
           <motion.div
-            key={page}
+            key={`${page}-${currentProject.name}`}
             custom={direction}
             variants={slideVariants}
             initial="enter"
             animate="center"
             exit="exit"
             transition={{
-              x: { type: "spring", stiffness: 300, damping: 30 },
-              opacity: { duration: 0.2 }
+              x: { type: 'spring', stiffness: 300, damping: 30 },
+              opacity: { duration: 0.2 },
             }}
             className="absolute w-full h-full"
           >
@@ -49,15 +49,18 @@ export default function ProjectCarousel({ projects }) {
               alt={currentProject.name}
               className="w-full h-[250px] object-cover rounded-t-lg"
             />
-            <div className="p-6 bg-white dark:bg-gray-800">
-              <h3 className="text-lg font-semibold mb-2 text-gray-900 dark:text-white">
+            <div className="p-6 bg-white dark:bg-gray-800 h-[150px] overflow-hidden ">
+              <h3 className="text-lg  text-gray-900 dark:text-white truncate ">
                 {currentProject.name}
               </h3>
-              <p className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2">
+              <p className="text-sm text-gray-600 font-semibold dark:text-gray-300 overflow-hidden text-ellipsis max-h-12  ">
                 {currentProject.description}
               </p>
-              <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">
-                {currentProject.location || currentProject.technique || currentProject.software || currentProject.client}
+              <p className="text-xs text-gray-500 font-semibold dark:text-gray-400 mt-2 truncate ">
+                {currentProject.location ||
+                  currentProject.technique ||
+                  currentProject.software ||
+                  currentProject.client}
               </p>
             </div>
           </motion.div>
@@ -66,7 +69,8 @@ export default function ProjectCarousel({ projects }) {
 
       {/* Navigation buttons */}
       <button
-        className="absolute left-2 top-[125px] -translate-y-1/2 p-2 rounded-full bg-white/80 dark:bg-gray-800/80 hover:bg-white dark:hover:bg-gray-800 shadow-lg z-10"
+        aria-label="Previous project"
+        className="absolute left-2 top-1/2 -translate-y-1/2 p-2 rounded-full bg-white/80 dark:bg-gray-800/80 hover:bg-white dark:hover:bg-gray-800 shadow-lg z-10"
         onClick={() => paginate(-1)}
       >
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -74,7 +78,8 @@ export default function ProjectCarousel({ projects }) {
         </svg>
       </button>
       <button
-        className="absolute right-2 top-[125px] -translate-y-1/2 p-2 rounded-full bg-white/80 dark:bg-gray-800/80 hover:bg-white dark:hover:bg-gray-800 shadow-lg z-10"
+        aria-label="Next project"
+        className="absolute right-2 top-1/2 -translate-y-1/2 p-2 rounded-full bg-white/80 dark:bg-gray-800/80 hover:bg-white dark:hover:bg-gray-800 shadow-lg z-10"
         onClick={() => paginate(1)}
       >
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -87,6 +92,7 @@ export default function ProjectCarousel({ projects }) {
         {projects.map((_, index) => (
           <button
             key={index}
+            aria-label={`Go to project ${index + 1}`}
             onClick={() => setPage([index, index > page ? 1 : -1])}
             className={`w-2 h-2 rounded-full transition-colors ${
               Math.abs(page % projects.length) === index
