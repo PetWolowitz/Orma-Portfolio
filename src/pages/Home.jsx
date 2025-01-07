@@ -9,10 +9,10 @@ export default function Home() {
         <BackgroundCarousel images={carouselImages} />
         
         <div className="relative container mx-auto px-4 sm:px-6 md:px-8 text-center text-white">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-citystencil  tracking-wide mb-6 text-shadow-custom">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-stencil  tracking-wide mb-6 text-shadow-custom">
             Orma Il Viandante
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl font-lato font-light tracking-wide max-w-3xl mx-auto px-4 sm:px-8 text-shadow-custom">
+          <p className="text-lg sm:text-xl md:text-2xl font-roboto font-light tracking-wide max-w-3xl mx-auto px-4 sm:px-8 text-shadow-custom">
             <span>Artist</span> | <span>Designer</span> | <span>Painter</span>
           </p>
         </div>

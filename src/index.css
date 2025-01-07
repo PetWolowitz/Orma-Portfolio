@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'CityStencil';
-  src: url('/fonts/CityStencil.ttf') format('truetype');
+  font-family: 'Stencil';
+  src: url('/fonts/eXO2 Stencil.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Graffiti';
-  src: url('/fonts/Graffiti.otf') format('opentype');
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-ThinItalic.ttf') format('opentype');
 }
 
 .text-shadow-custom {
@@ -25,14 +25,14 @@
 @layer base {
   html {
     /* Font Kaus come font di default */
-    font-family: 'Graffiti', system-ui, sans-serif;
+    font-family: 'Roboto', system-ui, sans-serif;
   }
 
   /* ExO2 Stencil per tutti i titoli */
   h1, h2, h3, h4, h5, h6, 
 .navbar, nav, 
 .nav-link {
-  font-family: 'CityStencil', sans-serif;
+  font-family: 'Stencil', sans-serif;
 }
 }
 

@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        citystencil: ['CityStencil', 'sans-serif'],
-        graffiti: ['Graffiti', 'sans-serif'],
+        stencil: ['Stencil', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
       },
       colors: {
         primary: {
