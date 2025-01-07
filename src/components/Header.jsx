@@ -24,25 +24,29 @@ export default function Header({ darkMode, toggleDarkMode }) {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white dark:bg-gray-900 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-16 lg:h-16">
           {/* Logo e Titolo */}
           <div
             className="flex-shrink-0 cursor-pointer flex items-center space-x-3"
             onClick={() => navigate('/')}
           >
-            <img src={Logo} alt="Logo" className="h-8 w-8" />
-            <span className="text-xl sm:text-2xl md:text-2xl font-stencil text-gray-900 dark:text-white">
+            <img
+              src={Logo}
+              alt="Logo"
+              className="h-8 w-8 lg:h-10 lg:w-10" /* Logo meno ingombrante */
+            />
+            <span className="text-xl sm:text-2xl lg:text-2xl font-stencil text-gray-900 dark:text-white">
               Orma Il Viandante
             </span>
           </div>
 
           {/* Navigazione principale */}
-          <nav className="hidden md:flex space-x-4 -ml-16">
+          <nav className="hidden md:flex space-x-4 lg:-ml-32">
             {pages.map((page) => (
               <button
                 key={page.path}
                 onClick={() => handleNavigate(page.path)}
-                className={`px-3 py-2 text-sm lg:text-lg xl:text-xl font-medium transition-colors relative
+                className={`px-3 py-2 text-sm lg:text-lg xl:text-lg font-medium transition-colors relative
                   ${
                     location.pathname === page.path
                       ? 'text-primary dark:text-white border-b-2 border-primary dark:border-white'
@@ -62,9 +66,9 @@ export default function Header({ darkMode, toggleDarkMode }) {
               aria-label="Toggle Dark Mode"
             >
               {darkMode ? (
-                <SunIcon className="h-5 w-5" />
+                <SunIcon className="h-5 w-5 lg:h-6 lg:w-6" /> /* Icone proporzionate */
               ) : (
-                <MoonIcon className="h-5 w-5" />
+                <MoonIcon className="h-5 w-5 lg:h-6 lg:w-6" />
               )}
             </button>
 

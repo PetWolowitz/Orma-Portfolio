@@ -10,6 +10,12 @@ export default {
         stencil: ['Stencil', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
       },
+      screens: {
+        sm: '640px', // Breakpoint per schermi piccoli
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+      },
       filter: {
         'invert-bright': 'invert(1) brightness(2)',
       },

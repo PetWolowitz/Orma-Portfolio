@@ -8,12 +8,13 @@ export default function Biography() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.6 }}
-      className="min-h-screen bg-white dark:bg-gray-900"
+      className="min-h-screen bg-white dark:bg-gray-900 "
       style={{
         backgroundImage: 'url("/images/biography/image7.jpg")', // Percorso corretto dell'immagine
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
+        
       }}
     >
       <div className=" min-h-screen">

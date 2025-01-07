@@ -15,18 +15,18 @@ export default function Contact() {
         backgroundRepeat: 'no-repeat',
       }}
     >
-      <div className="container mx-auto px-4 sm:px-6 md:px-8 py-10 ">
+      <div className="container mx-auto px-4 sm:px-6 md:px-8 py-8 ">
       <h1
           className="text-3xl sm:text-4xl md:text-5xl py-4 text-center mb-8 sm:mb-12 text-gray-900
             text-shadow-custom2 ">
         Get in Touch
       </h1>
         
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-2xl mx-auto mb-4">
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl p-6 sm:p-8 md:p-10">
             
             <p className="text-gray-600 text-xl font-semibold dark:text-gray-300 text-center mb-8">
-              Interested in my work? Send me a message and I'll get back to you as soon as possible.
+            Interessato al mio lavoro? Mandami un messaggio e ti risponderò il prima possibile.
             </p>
             
             <ContactForm />
