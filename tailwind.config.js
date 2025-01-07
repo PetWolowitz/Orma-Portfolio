@@ -10,6 +10,9 @@ export default {
         stencil: ['Stencil', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
       },
+      filter: {
+        'invert-bright': 'invert(1) brightness(2)',
+      },
       colors: {
         primary: {
           DEFAULT: '#2C3639',
@@ -23,5 +26,5 @@ export default {
     },
   },
   darkMode: 'class',
-  plugins: [],
+  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/aspect-ratio')],
 }

@@ -20,7 +20,7 @@ export default function Footer() {
 
           {/* Add other social media icons similarly */}
         </div>
-        <p className="text-center text-xl font-stencil   text-dark dark:text-white">
+        <p className="text-center text-xl font-stencil  font-thin text-dark dark:text-white">
           © {new Date().getFullYear()} Orma Il Viandante. All rights reserved.
         </p>
       </div>

@@ -48,7 +48,7 @@ export default function ContactForm() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
       onSubmit={handleSubmit}
-      className="max-w-2xl mx-auto mt-8 px-4 sm:px-0"
+      className="max-w-2xl mx-auto mt-8 px-4 sm:px-0 shadow-md"
     >
       {status.message && (
         <div className={`mb-4 p-4 rounded-lg ${
