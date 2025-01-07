@@ -25,7 +25,7 @@ export default function Contact() {
         <div className="max-w-2xl mx-auto">
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl p-6 sm:p-8 md:p-10">
             
-            <p className="text-gray-600 text-xl dark:text-gray-300 text-center mb-8">
+            <p className="text-gray-600 text-xl font-semibold dark:text-gray-300 text-center mb-8">
               Interested in my work? Send me a message and I'll get back to you as soon as possible.
             </p>
             
