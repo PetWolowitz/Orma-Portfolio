@@ -27,10 +27,10 @@ export default function BentiDetail() {
 
   return (
     <PageTransition>
-      <div className="container mx-auto px-4 sm:px-6 md:px-8 py-8">
+      <div className="container mx-auto px-4 sm:px-6 md:px-8 py-12">
         <button
           onClick={() => navigate('/benti-grid')}
-          className="inline-flex items-center mb-8 text-primary hover:text-primary-dark font-semibold"
+          className="inline-flex items-center mb-8 text-primary hover:text-primary-dark font-semibold dark:text-white"
         >
           <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
@@ -49,16 +49,16 @@ export default function BentiDetail() {
                 {artwork.title}
               </h1>
               
-              <p className="text-gray-600 dark:text-gray-300 font-semibold mb-6 text-sm sm:text-base">
+              <p className="text-gray-600 dark:text-gray-300 font-semibold mt-8 text-sm sm:text-base">
                 {artwork.details.description}
               </p>
 
               <div className="mt-4">
-                <p className="text-sm text-gray-500 font-semibold dark:text-gray-400">
-                  Year: {artwork.details.year}
+                <p className="text-sm text-gray-500 font-semibold mb-2 dark:text-gray-400">
+                   {artwork.details.year}
                 </p>
                 <p className="text-sm text-gray-500 font-semibold dark:text-gray-400">
-                  Medium: {artwork.details.medium}
+                 {artwork.details.medium}
                 </p>
               </div>
             </div>

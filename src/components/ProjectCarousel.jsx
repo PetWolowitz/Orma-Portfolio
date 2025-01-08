@@ -29,7 +29,7 @@ export default function ProjectCarousel({ projects }) {
 
   return (
     <div className="relative w-full">
-      <div className="relative h-[440px] overflow-hidden rounded-lg shadow-xl">
+      <div className="relative h-[440px] overflow-hidden rounded-lg shadow-xl bg-white dark:bg-gray-800">
         <AnimatePresence initial={false} custom={direction}>
           <motion.div
             key={`${page}-${currentProject.name}`}
@@ -47,16 +47,16 @@ export default function ProjectCarousel({ projects }) {
             <img
               src={currentProject.image}
               alt={currentProject.name}
-              className="w-full h-[250px] object-cover rounded-t-lg"
+              className="w-full h-[250px] object-cover"
             />
-            <div className="p-6 bg-white dark:bg-gray-800 h-[150px] overflow-hidden ">
-              <h3 className="text-lg  text-gray-900 dark:text-white truncate ">
+            <div className="p-6 h-[190px] overflow-hidden">
+              <h3 className="text-lg  text-gray-900 dark:text-white truncate">
                 {currentProject.name}
               </h3>
-              <p className="text-sm text-gray-600 font-semibold dark:text-gray-300 overflow-hidden text-ellipsis max-h-12  ">
+              <p className="text-sm text-gray-600 dark:text-gray-300 font-semibold overflow-hidden text-ellipsis max-h-12">
                 {currentProject.description}
               </p>
-              <p className="text-xs text-gray-500 font-semibold dark:text-gray-400 mt-2 truncate ">
+              <p className="text-xs text-gray-500 dark:text-gray-400 mt-2 truncate">
                 {currentProject.location ||
                   currentProject.technique ||
                   currentProject.software ||
@@ -88,7 +88,7 @@ export default function ProjectCarousel({ projects }) {
       </button>
 
       {/* Dots indicator */}
-      <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 flex space-x-2">
+      <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 flex space-x-2 mt-4">
         {projects.map((_, index) => (
           <button
             key={index}

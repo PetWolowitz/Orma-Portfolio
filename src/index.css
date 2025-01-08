@@ -9,7 +9,12 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url('/fonts/Roboto-ThinItalic.ttf') format('opentype');
+  src: url('/fonts/Roboto-ThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CuteNotes';
+  src: url('/fonts/CrazySixties.ttf') format('truetype');
 }
 
 .text-shadow-custom {
@@ -27,6 +32,7 @@
 };
 
 
+
 @layer base {
   html {
     /* Font Kaus come font di default */
@@ -34,13 +40,18 @@
   }
 
   /* ExO2 Stencil per tutti i titoli */
-  h1, h2, h3, h4, h5, h6, 
-.navbar, nav, 
-.nav-link {
+  h1, h2, h3, h4, h5, h6{
   font-family: 'Stencil', sans-serif;
 }
+
+.nav-link, nav, .navbar {
+  font-family: 'CuteNotes', sans-serif;
+
 }
 
+
+
+}
 @layer components {
   .btn {
     @apply px-4 py-2 rounded-lg transition-colors duration-200;

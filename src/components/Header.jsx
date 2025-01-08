@@ -7,7 +7,7 @@ import Logo from '../assets/images/logomanu.png';
 const pages = [
   { title: 'Home', path: '/' },
   { title: 'Progetti', path: '/benti-grid' },
-  { title: 'La mia Storia', path: '/biography' },
+  { title: 'Bio', path: '/biography' },
   { title: 'Contatti', path: '/contact' },
 ];
 
@@ -35,18 +35,18 @@ export default function Header({ darkMode, toggleDarkMode }) {
               alt="Logo"
               className="h-8 w-8 lg:h-10 lg:w-10" /* Logo meno ingombrante */
             />
-            <span className="text-xl sm:text-2xl lg:text-2xl font-stencil text-gray-900 dark:text-white">
+            <span className="sm:text-2xl md:text-sm lg:text-lg font-stencil text-gray-900 dark:text-white">
               Orma Il Viandante
             </span>
           </div>
 
           {/* Navigazione principale */}
-          <nav className="hidden md:flex space-x-4 lg:-ml-32">
+          <nav className="hidden lg:flex mr-20 space-x-5">
             {pages.map((page) => (
               <button
                 key={page.path}
                 onClick={() => handleNavigate(page.path)}
-                className={`px-3 py-2 text-sm lg:text-lg xl:text-lg font-medium transition-colors relative
+                className={`px-3 py-2 xl:text-lg md:text-sm transition-colors relative
                   ${
                     location.pathname === page.path
                       ? 'text-primary dark:text-white border-b-2 border-primary dark:border-white'
@@ -74,7 +74,7 @@ export default function Header({ darkMode, toggleDarkMode }) {
 
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="md:hidden ml-2 p-2 rounded-lg text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+              className="lg:hidden ml-2 p-2 rounded-lg text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
               aria-expanded={isMenuOpen}
               aria-label="Toggle Navigation Menu"
             >
@@ -86,7 +86,7 @@ export default function Header({ darkMode, toggleDarkMode }) {
         {/* Menu Mobile */}
         {isMenuOpen && (
           <div
-            className="md:hidden origin-top-right transition-transform transform scale-95 bg-white dark:bg-gray-900 rounded-md shadow-lg"
+            className="lg:hidden origin-top-right transition-transform transform scale-95 bg-white dark:bg-gray-900 rounded-md shadow-lg"
             role="menu"
           >
             <div className="px-2 pt-2 pb-3 space-y-1">

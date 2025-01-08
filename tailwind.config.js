@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         stencil: ['Stencil', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
+        cute: ['CuteNotes', 'sans-serif'],
       },
       screens: {
         sm: '640px', // Breakpoint per schermi piccoli

@@ -1,25 +1,26 @@
 export const bentiItems = [
   {
     id: 1,
-    title: 'Outdoor Projects',
-    image: 'https://picsum.photos/800/600?random=4',
-    description: 'Exploring nature and outdoor spaces through artistic expression',
+    title: 'Progetti outdoor',
+    image: '/images/projects/outdoor/outdoor1.jpg',
+    description: 'Realizzazione di opere outdoor con tecniche di street art, tra cui murales, stencil, graffiti e installazioni   artistiche, valorizzando spazi pubblici con creatività e messaggi visivi.',
     details: {
-      year: '2023',
-      medium: 'Mixed media',
-      description: 'A collection of projects focusing on outdoor environments, natural landscapes, and open-air installations.',
+      year: '2006-presente',
+      medium: 'Varie opere realizzate su pittura murale, stencil, graffiti e installazioni',
+      
+      description: "Una collezione di progetti incentrati su ambienti outdoor, paesaggi naturali e installazioni all'aperto.",
       projects: [
         {
           name: 'Forest Whispers',
           location: 'Pine National Park',
           description: 'An immersive installation that captures the sounds and movements of the forest',
-          image: 'https://picsum.photos/800/600?random=11'
+          image: '/images/projects/outdoor/outdoor2.jpg'
         },
         {
           name: 'Urban Garden',
           location: 'City Center',
           description: 'Transforming urban spaces into vibrant green sanctuaries',
-          image: 'https://picsum.photos/800/600?random=12'
+          image: '/images/projects/outdoor/image1.jpg'
         },
         {
           name: 'Coastal Dreams',
@@ -32,9 +33,9 @@ export const bentiItems = [
   },
   {
     id: 2,
-    title: 'Indoor Projects',
-    image: 'https://picsum.photos/800/600?random=5',
-    description: 'Interior design and spatial art installations',
+    title: 'Interior design',
+    image: '/images/projects/indoor/indoor1.jpg',
+    description: 'Creazione di opere artistiche per interni, utilizzando tecniche come pittura murale, stencil, graffiti decorativi e installazioni personalizzate, per trasformare spazi in ambienti unici e creativi.',
     details: {
       year: '2023',
       medium: 'Various materials',
@@ -63,9 +64,9 @@ export const bentiItems = [
   },
   {
     id: 3,
-    title: 'Handmade',
-    image: 'https://picsum.photos/800/600?random=6',
-    description: 'Crafted pieces and artisanal works',
+    title: 'Progetti handmade',
+    image: '/images/projects/handmade/handmade1.jpg',
+    description: 'Realizzazione di opere artigianali uniche, create interamente a mano con tecniche tradizionali e materiali di qualità, per esprimere creatività e autenticità in ogni dettaglio.',
     details: {
       year: '2023',
       medium: 'Various materials',
@@ -100,9 +101,9 @@ export const bentiItems = [
   },
   {
     id: 4,
-    title: 'Digital Illustration',
-    image: 'https://picsum.photos/800/600?random=7',
-    description: 'Digital art and illustrations',
+    title: 'Digital illustration',
+    image: '/images/projects/digital/digital1.jpg',
+    description: 'Creazione di illustrazioni digitali realizzate su iPad, Photoshop, Illustrator, Adobe Sketch e altre app professionali, per opere versatili, creative e di alta qualità.',
     details: {
       year: '2023',
       medium: 'Digital',
@@ -137,9 +138,9 @@ export const bentiItems = [
   },
   {
     id: 5,
-    title: 'Wine Labels',
-    image: 'https://picsum.photos/800/600?random=8',
-    description: 'Custom wine label designs',
+    title: 'Wine labels',
+    image: '/images/projects/winelabel/winelabel1.jpg',
+    description: "Progettazione di etichette per vino, combinando design creativo e attenzione ai dettagli per valorizzare l'identità del brand e catturare l'attenzione con eleganza e stile.",
     details: {
       year: '2023',
       medium: 'Mixed media and digital',

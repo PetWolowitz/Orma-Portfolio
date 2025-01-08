@@ -17,9 +17,9 @@ export default function Contact() {
     >
       <div className="container mx-auto px-4 sm:px-6 md:px-8 py-8 ">
       <h1
-          className="text-3xl sm:text-4xl md:text-5xl py-4 text-center mb-8 sm:mb-12 text-gray-900
-            text-shadow-custom2 ">
-        Get in Touch
+          className="text-3xl sm:text-4xl md:text-5xl py-4 text-center mb-8 sm:mb-12 text-white
+            text-shadow-custom ">
+        Contattami
       </h1>
         
         <div className="max-w-2xl mx-auto mb-4">
