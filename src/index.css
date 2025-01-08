@@ -13,8 +13,8 @@
 }
 
 @font-face {
-  font-family: 'CuteNotes';
-  src: url('/fonts/CrazySixties.ttf') format('truetype');
+  font-family: 'Impact';
+  src: url('/fonts/Impact.ttf') format('truetype');
 }
 
 .text-shadow-custom {
@@ -45,7 +45,7 @@
 }
 
 .nav-link, nav, .navbar {
-  font-family: 'CuteNotes', sans-serif;
+  font-family: 'Impact', sans-serif;
 
 }
 

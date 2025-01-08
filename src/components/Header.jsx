@@ -41,7 +41,7 @@ export default function Header({ darkMode, toggleDarkMode }) {
           </div>
 
           {/* Navigazione principale */}
-          <nav className="hidden lg:flex mr-20 space-x-5">
+          <nav className="hidden lg:flex mr-[155px] space-x-6">
             {pages.map((page) => (
               <button
                 key={page.path}

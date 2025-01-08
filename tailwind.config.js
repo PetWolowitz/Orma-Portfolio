@@ -9,13 +9,16 @@ export default {
       fontFamily: {
         stencil: ['Stencil', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
-        cute: ['CuteNotes', 'sans-serif'],
+        impact: ['Impact', 'sans-serif'],
       },
       screens: {
         sm: '640px', // Breakpoint per schermi piccoli
         md: '768px',
         lg: '1024px',
         xl: '1280px',
+      },
+      margin: {
+        'custom': '2.5rem', // Margine personalizzato
       },
       filter: {
         'invert-bright': 'invert(1) brightness(2)',

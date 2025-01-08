@@ -26,7 +26,13 @@ export const bentiItems = [
           name: 'Coastal Dreams',
           location: 'Beach Front',
           description: 'A series of installations inspired by ocean waves and coastal landscapes',
-          image: 'https://picsum.photos/800/600?random=13'
+          image: '/images/projects/outdoor/outdoor3.jpg'
+        },
+        {
+          name: 'Urban Oasis',
+          location: 'City Center',
+          description: 'Creating a tranquil oasis in the city',
+          image: '/images/projects/outdoor/outdoor4.jpg'
         }
       ]
     }
