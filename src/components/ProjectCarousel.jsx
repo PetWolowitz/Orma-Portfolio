@@ -42,7 +42,7 @@ export default function ProjectCarousel({ projects }) {
   return (
     <div className="relative w-full">
       {/* Aggiunto overflow-hidden per evitare lo scroll orizzontale */}
-      <div className="relative h-[600px] rounded-lg shadow-xl bg-white dark:bg-gray-800 overflow-hidden">
+      <div className="relative h-[610px] rounded-lg shadow-xl bg-white dark:bg-gray-800 overflow-hidden ">
         <AnimatePresence initial={false} custom={direction}>
           <motion.div
             key={`${page}-${currentProject.name}`}
@@ -64,14 +64,14 @@ export default function ProjectCarousel({ projects }) {
               className="w-full h-[400px] object-cover cursor-pointer"
               onClick={() => openModal(currentProject.image)}
             />
-            <div className="p-6">
-              <h3 className="text-lg text-gray-900 dark:text-white">
+            <div className="p-4 ">
+              <h3 className="text-lg text-gray-900 dark:text-white mb-4 ">
                 {currentProject.name}
               </h3>
-              <p className="text-sm text-gray-600 dark:text-gray-300 font-semibold">
+              <p className="text-sm text-gray-600 dark:text-gray-300 font-semibold ">
                 {currentProject.description}
               </p>
-              <p className="text-xs text-gray-500 dark:text-gray-400 mt-2 font-semibold">
+              <p className="text-xs text-gray-500 dark:text-gray-400 font-semibold mt-1 ">
                 {currentProject.location ||
                   currentProject.technique ||
                   currentProject.software ||

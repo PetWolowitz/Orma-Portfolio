@@ -5,21 +5,21 @@
       image: '/images/projects/outdoor/outdoor1.jpg',
       description: 'Realizzazione di opere outdoor con tecniche di street art, tra cui murales, stencil, graffiti e installazioni   artistiche, valorizzando spazi pubblici con creatività e messaggi visivi.',
       details: {
-        year: '2006-presente',
+        year: '2006 / presente',
         medium: 'Varie opere realizzate su pittura murale, stencil, graffiti e installazioni',
         
         description: "Una collezione di progetti incentrati su ambienti outdoor, paesaggi naturali e installazioni all'aperto.",
         projects: [
           {
-            name: 'Murales tecniche miste',
-            location: 'xxx',
-            description: 'Murale raffigurante una barca sospesa con un albero autunnale al centro e diversi animali a bordo, simbolo di natura, equilibrio e convivenza armoniosa.',
+            name: 'La cura',
+            location: 'Napoli Ponticelli',
+            description: 'Murale raffigurante una barca sospesa con un albero autunnale al centro e diversi animali a bordo, simbolo di natura, equilibrio e convivenza armoniosa. Quando la vera arte è l’incontrarsi casuale e fortuito delle persone. Grazie Napoli',
             image: '/images/projects/outdoor/outdoor2.jpg'
           },
           {
             name: "Facciata palestra dell'Istituto 'B. Vittone' di Chieri",
             location: 'Istituto "B. Vittone" di Chieri',
-            description: 'Murale di una città fantastica su un vascello, con vari elementi coreografici per creare una atmosfera in stile fiabesco, in un paesaggio onirico e surreale.',
+            description: "Nell'estate 2022 realizza un grande dipinto murario a tema 'Le città invisibili' di Italo Calvino,",
             image: '/images/projects/outdoor/image1.jpg'
           },
           {
@@ -35,16 +35,22 @@
             image: '/images/projects/outdoor/outdoor4.jpg'
           },
           {
-            name: '50 ANNI DI Sivit S.r.l. - Pavimenti in resina',
-            location: 'Via Centallo, 57 - 10156 Torino (TO)',
-            description: '',
-            image: '/images/projects/outdoor/outdoor4.jpg'
+            name: 'GIUGNO 2024 "BERLINO ALBUGNANO a/r"',
+            location: 'Albugnano (TO)',
+            description: "Lavoro realizzato per l' Associazione culturale 'Sentire Altrimenti'.",
+            image: '/images/projects/outdoor/image2.jpg'
           },
           {
-            name: '50 ANNI DI Sivit S.r.l. - Pavimenti in resina',
-            location: 'Via Centallo, 57 - 10156 Torino (TO)',
-            description: '',
-            image: '/images/projects/outdoor/outdoor4.jpg'
+            name: '"Il partigiano Robin"',
+            location: 'OmegaXResistenza2024',
+            description: "Essere partigiani ogni giorno, in equilibrio costante tra l'accettare con entusiasmo le sfide personali e il prendersi cura delle sfide personali di chi ci sta intorno.",
+            image: '/images/projects/outdoor/outdoor5.jpg'
+          },
+          {
+            name: 'Centro estivo di Buttigliera d’Asti',
+            location: "Centro estivo presso @o.s.g.o_s_giuseppe di Buttigliera d'Asti",
+            description:'Laboratorio con i ragazzi delle terze medie, finalizzato a decorare e ad abbellire una delle pareti principali della struttura.',
+            image: '/images/projects/outdoor/outdoor6.jpg'
           },
           
         ]
@@ -56,27 +62,33 @@
       image: '/images/projects/indoor/indoor1.jpg',
       description: 'Creazione di opere artistiche per interni, utilizzando tecniche come pittura murale, stencil, graffiti decorativi e installazioni personalizzate, per trasformare spazi in ambienti unici e creativi.',
       details: {
-        year: '2023',
-        medium: 'Various materials',
-        description: 'Interior design projects and installations that transform indoor spaces.',
+        year: '2006 / presente',
+        medium: 'Tecniche varie',
+        description: 'Progetti di interior design e installazioni che trasformano gli spazi interni.',
         projects: [
           {
-            name: 'Living Room Revival',
-            location: 'Private Residence',
-            description: 'Modern interpretation of classic living spaces',
-            image: 'https://picsum.photos/800/600?random=14'
+            name: 'Captainslog',
+            location: 'Agriturismo Tenuta La Meridiana, 5 Via Tana Bassa - 14048 Montegrosso DʼAsti',
+            description: 'Sulle pareti, una serie di disegni prende vita, intrecciandosi come una trama, scenografia ideale per le stampe del progetto #captainslog: storie di viaggi e sguardi lontani.',
+            image: '/images/projects/indoor/indoor3.jpg'
           },
           {
-            name: 'Office Harmony',
-            location: 'Corporate Building',
-            description: 'Creating productive and inspiring workplace environments',
-            image: 'https://picsum.photos/800/600?random=15'
+            name: 'Nauticalchart',
+            location: 'Commision work',
+            description: 'Nauticalchart. Porte di casa trasformate in mappe, perfette per una coppia di pirati folli come me, pronte ad aprirsi su mondi immaginari e rotte impossibili.',
+            image: '/images/projects/indoor/indoor2.jpg'
           },
           {
-            name: 'Gallery Space',
-            location: 'Art Center',
-            description: 'Innovative exhibition space design',
-            image: 'https://picsum.photos/800/600?random=16'
+            name: 'Four seasons tree',
+            location: 'Commision work',
+            description: 'Un libro spalancato, le pagine che si piegano e prendono vita: nasce un albero, sbocciano case, navigano barche. Un mondo fantastico, fatto di storie e sogni.',
+            image: '/images/projects/indoor/indoor4.jpg'
+          },
+          {
+            name: 'Home sweet home',
+            location: 'Commision work',
+            description: "Una balena sospesa nell'aria, con case legate al dorso, un'ancora che sfiora il vuoto e un cesto di mele rosse: un viaggio impossibile, eppure familiare.",
+            image: '/images/projects/indoor/indoor5.jpg'
           }
         ]
       }
@@ -87,33 +99,33 @@
       image: '/images/projects/handmade/handmade1.jpg',
       description: 'Realizzazione di opere artigianali uniche, create interamente a mano con tecniche tradizionali e materiali di qualità, per esprimere creatività e autenticità in ogni dettaglio.',
       details: {
-        year: '2023',
-        medium: 'Various materials',
-        description: 'Hand-crafted pieces showcasing traditional techniques and materials.',
+        year: '2006 / presente',
+        medium: 'Tecniche varie',
+        description: 'Disegni realizzati interamente a mano, ricchi di dettagli e personalità, che raccontano storie uniche attraverso linee, trame e colori autentici. Ogni opera è il risultato di un processo creativo artigianale, dove ogni tratto porta con sé un tocco di unicità e passione.',
         projects: [
           {
-            name: 'Ceramic Collection',
-            technique: 'Hand-thrown pottery',
-            description: 'A series of functional and decorative ceramic pieces featuring organic forms',
-            image: 'https://picsum.photos/800/600?random=17'
+            name: 'Walking down Bricklane',
+            technique: 'Inchiostro China',
+            description: '"Walkin Down Bricklane": un vicolo di mattoni, insegne che parlano di rum e venti di mare. Un ragazzo e uno scoiattolo, cappelli inclinati, condividono un segreto.',
+            image: '/images/projects/handmade/handmade2.jpg'
           },
           {
-            name: 'Textile Art',
-            technique: 'Hand-woven fabrics',
-            description: 'Contemporary textiles combining traditional weaving techniques with modern patterns',
-            image: 'https://picsum.photos/800/600?random=18'
+            name: "CAPTAIN'S LOG: LONDRA TORTUGA",
+            technique: 'Tecniche miste',
+            description: 'Londra si piega tra vecchie vele e moderni grattacieli. Una volpe col cilindro e uno scoiattolo nuotano, tirando i fili di un mondo sospeso tra realtà e sogno.',
+            image: '/images/projects/handmade/handmade3.jpg'
           },
           {
-            name: 'Wood Sculptures',
-            technique: 'Hand-carved wood',
-            description: 'Abstract wooden sculptures exploring natural forms and textures',
-            image: 'https://picsum.photos/800/600?random=19'
+            name: 'Shelters & Guardians',
+            technique: '70x50cm // Gouache tempera and markers on 300 gr Fabriano paper',
+            description: "Una casa su ruote, coperta di vite e vele spiegate. Un orso vigila dall'alto, una lontra guida: rifugio e viaggio, protetti dalla natura.",
+            image: '/images/projects/handmade/handmade4.jpg'
           },
           {
-            name: 'Metal Works',
-            technique: 'Hand-forged metal',
-            description: 'Decorative metal pieces combining traditional blacksmithing with contemporary design',
-            image: 'https://picsum.photos/800/600?random=20'
+            name: 'The Builders',
+            technique: '120x90cm / Gouache & Ink on cardboard',
+            description: 'Un cantiere sospeso tra realtà e sogno: case azzurre crescono tra scafi incompleti, mentre una giraffa, un leone e pesci volanti vegliano silenziosi.',
+            image: '/images/projects/handmade/handmade5.jpg'
           }
         ]
       }
