@@ -20,6 +20,8 @@ const slideVariants = {
 
 export default function ProjectCarousel({ projects }) {
   const [[page, direction], setPage] = useState([0, 0]);
+  const [isModalOpen, setIsModalOpen] = useState(false); // Per controllare la modale
+  const [modalImage, setModalImage] = useState(null); // Per l'immagine da mostrare
 
   const paginate = (newDirection) => {
     setPage([page + newDirection, newDirection]);
@@ -27,9 +29,20 @@ export default function ProjectCarousel({ projects }) {
 
   const currentProject = projects[Math.abs(page % projects.length)];
 
+  const openModal = (image) => {
+    setModalImage(image);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setModalImage(null);
+  };
+
   return (
     <div className="relative w-full">
-      <div className="relative h-[440px] overflow-hidden rounded-lg shadow-xl bg-white dark:bg-gray-800">
+      {/* Aggiunto overflow-hidden per evitare lo scroll orizzontale */}
+      <div className="relative h-[600px] rounded-lg shadow-xl bg-white dark:bg-gray-800 overflow-hidden">
         <AnimatePresence initial={false} custom={direction}>
           <motion.div
             key={`${page}-${currentProject.name}`}
@@ -44,19 +57,21 @@ export default function ProjectCarousel({ projects }) {
             }}
             className="absolute w-full h-full"
           >
+            {/* Aggiunto onClick per aprire la modale */}
             <img
               src={currentProject.image}
               alt={currentProject.name}
-              className="w-full h-[250px] object-cover"
+              className="w-full h-[400px] object-cover cursor-pointer"
+              onClick={() => openModal(currentProject.image)}
             />
-            <div className="p-6 h-[190px] overflow-hidden">
-              <h3 className="text-lg  text-gray-900 dark:text-white truncate">
+            <div className="p-6">
+              <h3 className="text-lg text-gray-900 dark:text-white">
                 {currentProject.name}
               </h3>
-              <p className="text-sm text-gray-600 dark:text-gray-300 font-semibold overflow-hidden text-ellipsis max-h-12">
+              <p className="text-sm text-gray-600 dark:text-gray-300 font-semibold">
                 {currentProject.description}
               </p>
-              <p className="text-xs text-gray-500 dark:text-gray-400 mt-2 truncate">
+              <p className="text-xs text-gray-500 dark:text-gray-400 mt-2 font-semibold">
                 {currentProject.location ||
                   currentProject.technique ||
                   currentProject.software ||
@@ -67,7 +82,7 @@ export default function ProjectCarousel({ projects }) {
         </AnimatePresence>
       </div>
 
-      {/* Navigation buttons */}
+      {/* Pulsanti di navigazione */}
       <button
         aria-label="Previous project"
         className="absolute left-2 top-1/2 -translate-y-1/2 p-2 rounded-full bg-white/80 dark:bg-gray-800/80 hover:bg-white dark:hover:bg-gray-800 shadow-lg z-10"
@@ -87,8 +102,8 @@ export default function ProjectCarousel({ projects }) {
         </svg>
       </button>
 
-      {/* Dots indicator */}
-      <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 flex space-x-2 mt-4">
+      {/* Indicatori a pallini */}
+      <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 flex space-x-2 mt-4">
         {projects.map((_, index) => (
           <button
             key={index}
@@ -102,6 +117,20 @@ export default function ProjectCarousel({ projects }) {
           />
         ))}
       </div>
+
+      {/* Modale per l'immagine */}
+      {isModalOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75"
+          onClick={closeModal}
+        >
+          <img
+            src={modalImage}
+            alt="Modal"
+            className="max-w-full max-h-full rounded-lg"
+          />
+        </div>
+      )}
     </div>
   );
 }

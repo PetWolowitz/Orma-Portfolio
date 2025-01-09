@@ -27,6 +27,8 @@ export default {
         primary: {
           DEFAULT: '#2C3639',
           dark: '#1a1f21',
+          light: '#EAD2AC', // Colore nav e footer
+          footer: '#EABA6B',
         },
         secondary: {
           DEFAULT: '#A27B5C',
