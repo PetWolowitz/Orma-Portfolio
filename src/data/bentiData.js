@@ -1,3 +1,5 @@
+import { s } from "framer-motion/client";
+
   export const bentiItems = [
     {
       id: 1,
@@ -126,6 +128,24 @@
             technique: '120x90cm / Gouache & Ink on cardboard',
             description: 'Un cantiere sospeso tra realtà e sogno: case azzurre crescono tra scafi incompleti, mentre una giraffa, un leone e pesci volanti vegliano silenziosi.',
             image: '/images/projects/handmade/handmade5.jpg'
+          },
+          {
+            name: 'WIND KEEPER',
+            technique: '120x70cm mixed media on cardboard',
+            description: 'Pare di sentire l’odore del mare.',
+            image: '/images/projects/handmade/handmade6.jpg'
+          },
+          {
+            name: 'Captain’s Log: Lighthouse Family',
+            technique: 'Illustrazione',
+            description: "Progetto Captain's Log'",
+            image: '/images/projects/handmade/handmade7.jpg'
+          },
+          {
+            name: 'My COVID-19',
+            technique: 'mixed media on cardboard',
+            description: "Un disegno dal periodo del Covid-19: sorridente e con occhi brillanti, indossa un cappello da viaggio e porta una valigia, quasi a simboleggiare il suo 'tour mondiale'. Un'ironia sottile su un'epoca difficile.",
+            image: '/images/projects/handmade/handmade8.jpg'
           }
         ]
       }
