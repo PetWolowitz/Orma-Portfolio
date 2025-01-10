@@ -270,36 +270,48 @@ import { s } from "framer-motion/client";
     {
       id: 5,
       title: 'Wine labels',
-      image: '/images/projects/winelabel/winelabel1.jpg',
+      image: '/images/projects/winelabel/winelabel.jpg',
       description: "Progettazione di etichette per vino, combinando design creativo e attenzione ai dettagli per valorizzare l'identità del brand e catturare l'attenzione con eleganza e stile.",
       details: {
-        year: '2023',
+        year: '2020 / presente',
         medium: 'Mixed media and digital',
-        description: 'Bespoke wine label designs combining traditional art and modern design.',
+        description: 'Creare etichette per vino è dare voce al vino stesso: un design che intreccia creatività e dettagli per esaltare l’identità del brand, catturando con eleganza e stile chi lo osserva.',
         projects: [
           {
-            name: 'Vintage Collection',
-            client: 'Estate Winery',
-            description: 'Classic label designs inspired by traditional wine-making heritage',
-            image: 'https://picsum.photos/800/600?random=25'
+            name: '"I DUE AMIS" - "BALÙ"',
+            client: 'Avignazapp',
+            description: 'Le mie avventure nel mondo del vino proseguono a gonfie vele!🍇🍷',
+            image: '/images/projects/winelabel/winelabel3.jpg'
           },
           {
-            name: 'Modern Series',
-            client: 'Urban Vineyard',
-            description: 'Contemporary minimalist labels for a modern wine collection',
-            image: 'https://picsum.photos/800/600?random=26'
+            name: 'Tasso Alcolico',
+            client: 'Cantina Social',
+            description: 'Commission work',
+            image: '/images/projects/winelabel/winelabel2.jpg'
           },
           {
-            name: 'Limited Edition',
-            client: 'Boutique Wines',
-            description: 'Exclusive label designs for special release wines',
-            image: 'https://picsum.photos/800/600?random=27'
+            name: 'Di Freisa in Freisa 2021',
+            client: 'Comune di Chieri',
+            description: "Volto dell'edizione della festa del Freisa 2021",
+            image: '/images/projects/winelabel/winelabel4.jpg'
           },
           {
-            name: 'Seasonal Collection',
-            client: 'Regional Winery',
-            description: 'Seasonal themed labels celebrating different times of the year',
-            image: 'https://picsum.photos/800/600?random=28'
+            name: 'Progetto Vini & Risi ',
+            client: "@vinibalbiano @vini_stefano_rossotto @_az.ag.rubattoguido_ @cantinaterredeisanti @a.miglioretti @cantina_bonafous @degustibuschieri @cantina_del_convento @exmattatoiochieri...",
+            description: 'Ristoranti e blogger hanno creato e raccontato ricercate ricette per valorizzare al meglio il connubio #riso - #freisa .',
+            image: '/images/projects/winelabel/winelabel5.jpg'
+          },
+          {
+            name: 'VerMUt',
+            client: 'Tenuta La Meridiana',
+            description: 'Realizzazione di etichetta per il Vermut della Tenuta La Meridiana',
+            image: '/images/projects/winelabel/winelabel6.jpg'
+          },
+          {
+            name: 'VerMUt',
+            client: 'Tenuta La Meridiana',
+            description: 'Realizzazione di etichetta per il Vermut della Tenuta La Meridiana',
+            image: '/images/projects/winelabel/winelabel7.jpg'
           }
         ]
       }
