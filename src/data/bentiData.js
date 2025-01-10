@@ -91,7 +91,20 @@ import { s } from "framer-motion/client";
             location: 'Commision work',
             description: "Una balena sospesa nell'aria, con case legate al dorso, un'ancora che sfiora il vuoto e un cesto di mele rosse: un viaggio impossibile, eppure familiare.",
             image: '/images/projects/indoor/indoor5.jpg'
-          }
+          },
+          {
+            name: ' Intersectio',
+            location: 'Atelier Bonetto_design_arredamento, Chieri', 
+            description: 'Collaborazione con Bonetto_design_arredamento, per il progetto "Intersectio". Un progetto di arredamento per la casa di privati che vogliono un tocco di street art.',
+            image: '/images/projects/indoor/indoor6.jpg'
+          },
+          {
+            name: 'Time machine',
+            location: 'Commision work',
+            description: 'Acrylic & markers on wall',
+            image: '/images/projects/indoor/indoor7.jpg'
+          },
+          
         ]
       }
     },
@@ -146,6 +159,12 @@ import { s } from "framer-motion/client";
             technique: 'mixed media on cardboard',
             description: "Un disegno dal periodo del Covid-19: sorridente e con occhi brillanti, indossa un cappello da viaggio e porta una valigia, quasi a simboleggiare il suo 'tour mondiale'. Un'ironia sottile su un'epoca difficile.",
             image: '/images/projects/handmade/handmade8.jpg'
+          },
+          {
+            name: 'I Viandanti di Krullsstraße',
+            technique: 'Marker on canvas',
+            description: 'Un’opera nata in viaggio, a Berlino, tra strade che respirano storia e angoli che sussurrano storie. Un’ispirazione colta al volo, come fosse destino.',
+            image: '/images/projects/handmade/handmade9.jpg'
           }
         ]
       }
@@ -153,37 +172,98 @@ import { s } from "framer-motion/client";
     {
       id: 4,
       title: 'Digital illustration',
-      image: '/images/projects/digital/digital1.jpg',
+      image: '/images/projects/digital/digital.jpg',
       description: 'Creazione di illustrazioni digitali realizzate su iPad, Photoshop, Illustrator, Adobe Sketch e altre app professionali, per opere versatili, creative e di alta qualità.',
       details: {
         year: '2023',
-        medium: 'Digital',
-        description: 'Contemporary digital illustrations and artwork created using various digital tools.',
+        medium: 'Digital Mixed Media',
+        description: "Illustrazioni e opere d'arte digitali contemporanee create utilizzando diversi strumenti digitali.",
         projects: [
           {
-            name: 'Character Series',
-            software: 'Procreate',
-            description: 'A collection of stylized character illustrations for various projects',
-            image: 'https://picsum.photos/800/600?random=21'
+            name: ' Convivenza',
+            software: 'Ipad Pro',
+            description: 'Un volto ai principi del Manifesto: CONVIVENZA, quell’idea che lega ogni specie, fragile e potente, come un respiro che ci tiene tutti in equilibrio.',
+            image: '/images/projects/digital/digital3.jpg'
           },
           {
-            name: 'Abstract Compositions',
-            software: 'Adobe Illustrator',
-            description: 'Vector-based abstract compositions exploring color and form',
-            image: 'https://picsum.photos/800/600?random=22'
+            name: 'Il coraggio di perdersi per ritrovarsi',
+            software: 'Digital Mixed Media',
+            description: 'A chi si perde tra passato e presente, chi teme i sentieri, chi chiude ponti. Non saremmo pirati senza perderci, cercarci e ritrovarci per poi evolvere.',
+            image: '/images/projects/digital/digital1.jpg'
           },
           {
-            name: 'Digital Paintings',
-            software: 'Photoshop',
-            description: 'Digital paintings combining traditional art techniques with digital tools',
-            image: 'https://picsum.photos/800/600?random=23'
-          },
-          {
-            name: 'Editorial Illustrations',
+            name: 'Vele al vento, cuori in viaggio',
             software: 'Mixed Digital Media',
-            description: 'Conceptual illustrations for editorial and publishing projects',
-            image: 'https://picsum.photos/800/600?random=24'
-          }
+            description: 'Ognuno dovrebbe rafforzare la propria nave, ricucire le vele, studiare il cielo e ascoltare il vento, per prepararsi a sfidare il mare e correre verso chi ci manca davvero.',
+            image: '/images/projects/digital/digital2.jpg'
+          },
+          {
+            name: 'Dentro la tasca di un qualunque mattino',
+            software: 'Mixed Digital Media',
+            description:'Un piccolo riccio spunta dalla tasca di una giacca blu, come un viaggiatore curioso. Tra gli spilli e la tenerezza, regge una tazzina, scrutando il mondo con occhi vigili e innocenti.',
+            image: '/images/projects/digital/digital4.jpg'
+          },
+          {
+            name: '16:49',
+            software: 'Mixed Digital Media',
+            description:'Un cielo acceso di rosa, alberi scuri come ombre, una donna sorseggia in silenzio con un riccio sulla spalla. Sopra, un mulino volante sfida il tempo fermo alle 16:49, tra sogno e realtà.',
+            image: '/images/projects/digital/digital5.jpg'
+          },
+          {
+            name: 'Late summer impressions',
+            software: 'Mixed Digital Media',  
+            description:'Commission Work',
+            image: '/images/projects/digital/digital6.jpg'
+          },
+          {
+            name: 'La guerra dei giocattoli PART-1',
+            software: 'Mixed Digital Media',  
+            description:'...And in the end the younger ones taught the old how to defeat the war...',
+            image: '/images/projects/digital/digital7.jpg'
+          },
+          {
+            name: 'La guerra dei giocattoli PART-2',
+            software: 'Mixed Digital Media',  
+            description:'...And in the end the younger ones taught the old how to defeat the war...',
+            image: '/images/projects/digital/digital8.jpg'
+          },
+          {
+            name: 'Abisso Ep Cover',
+            software: 'Mixed Digital Media',  
+            description:'Commission Work',
+            image: '/images/projects/digital/digital9.jpg'
+          },
+          {
+            name: 'La luce oltre il confine',
+            software: 'Mixed Digital Media',  
+            description:'Felice di presentare un’opera nata dopo lo scoppio della guerra in Ucraina, una storia di pace e resistenza. Un progetto per sostenere i rifugiati e chi fugge, perché l’arte è rifugio.',
+            image: '/images/projects/digital/digital.jpg'
+          },
+          {
+            name: 'Compagni di viaggio 6/6',
+            software: 'Mixed Digital Media',  
+            description:'"Compagni di viaggio" racconta di presenze silenziose e complici, creature e simboli che abitano il cammino. Un dialogo invisibile tra chi siamo e chi portiamo con noi nel viaggio della vita.',
+            image: '/images/projects/digital/digital10.jpg'
+          },
+          {
+            name: 'Compagni di viaggio 3/6',
+            software: 'Mixed Digital Media',  
+            description:'"Compagni di viaggio" racconta di presenze silenziose e complici, creature e simboli che abitano il cammino. Un dialogo invisibile tra chi siamo e chi portiamo con noi nel viaggio della vita.',
+            image: '/images/projects/digital/digital12.jpg'
+          },
+          
+          {
+            name: 'Napoli 2020',
+            software: 'Mixed Digital Media',
+            description:'Napoli, 2020. Non quella dei miei ricordi, ma quella che vive nelle storie di qualcun altro. Perché, a volte, le avventure degli altri trovano voce solo intrecciandosi alle nostre, come fili dello stesso tessuto.',
+            image: '/images/projects/digital/digital11.jpg'
+          },
+          {
+            name: 'Cucu',
+            software: 'Mixed Digital Media',  
+            description:'Opera dedicata a un amico speciale, un piccolo riccio che ha saputo rubarmi il cuore. Un viaggiatore curioso, un compagno di avventure, un amico fedele. Mi manchi, Cucu.',
+            image: '/images/projects/digital/digital13.jpg'
+          },
         ]
       }
     },
