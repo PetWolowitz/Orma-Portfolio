@@ -48,4 +48,4 @@ SEO ottimizzato per maggiore visibilità
 
 Orma il Viandante
 Instagram: [@orma_the_wanderer]
-[](https://orma-il-viandante-portfolio.purplecoast.it/)
+[(https://orma-il-viandante-portfolio.purplecoast.it/)]
