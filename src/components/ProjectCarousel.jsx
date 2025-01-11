@@ -18,7 +18,7 @@ const slideVariants = {
     x: direction < 0 ? 1000 : -1000,
     opacity: 0,
     position: 'absolute'
-  }),
+  })
 };
 
 export default function ProjectCarousel({ projects }) {

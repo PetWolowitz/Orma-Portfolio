@@ -11,7 +11,7 @@ const slideVariants = {
   exit: {
     opacity: 0,
   },
-};
+}
 
 export default function BackgroundCarousel({ images }) {
   const [currentIndex, setCurrentIndex] = useState(0);

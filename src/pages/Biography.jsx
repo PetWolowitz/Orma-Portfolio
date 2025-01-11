@@ -17,7 +17,7 @@ export default function Biography() {
         <div className="min-h-screen">
           <div className="container mx-auto px-4 sm:px-6 md:px-8 py-10">
             {/* Titolo principale */}
-            <h1 className="text-3xl py-6 sm:text-4xl md:text-5xl text-center mb-8 sm:mb-12 md:mb-16 text-white text-shadow-custom dark:text-white">
+            <h1 className="text-5xl py-6 sm:text-4xl md:text-5xl lg:text-6xl font-citystencil text-center mb-8 sm:mb-12 md:mb-16 text-white text-shadow-custom dark:text-white">
               La mia Storia
             </h1>
 

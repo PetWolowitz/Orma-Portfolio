@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Stencil';
-  src: url('/fonts/eXO2 Stencil.ttf') format('truetype');
+  src: url('/fonts/CityStencil.ttf') format('truetype');
 }
 
 @font-face {
@@ -29,7 +29,7 @@
   width: auto;
   height: 50px;
   object-fit: contain;
-};
+}
 
 
 

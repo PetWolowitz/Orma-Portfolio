@@ -35,13 +35,13 @@ export default function Header({ darkMode, toggleDarkMode }) {
               alt="Logo"
               className="h-8 w-8 lg:h-10 lg:w-10" /* Logo meno ingombrante */
             />
-            <span className="sm:text-2xl md:text-sm lg:text-lg font-stencil text-gray-900 dark:text-white">
+            <span className="sm:text-2xl md:text-sm lg:text-2xl font-stencil text-gray-900 dark:text-white">
               Orma Il Viandante
             </span>
           </div>
 
           {/* Navigazione principale */}
-          <nav className="hidden lg:flex mr-[155px] space-x-6">
+          <nav className="hidden lg:flex mr-[185px] space-x-8">
             {pages.map((page) => (
               <button
                 key={page.path}

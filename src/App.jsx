@@ -8,6 +8,7 @@ import BentiGrid from './pages/BentiGrid';
 import BentiDetail from './pages/BentiDetail';
 import Biography from './pages/Biography';
 import Contact from './pages/Contact';
+import ScrollToTop from './components/ScrollToTop'; // Importa ScrollToTop
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -18,12 +19,9 @@ function App() {
 
   return (
     <div className={darkMode ? 'dark' : ''}>
-      <Router
-        future={{
-          v7_startTransition: true, // Abilita il wrapping con startTransition
-          v7_relativeSplatPath: true, // Gestione aggiornata degli splat
-        }}
-      >
+      <Router>
+        {/* Aggiunto ScrollToTop all'interno del Router */}
+        <ScrollToTop />
         <Layout darkMode={darkMode} toggleDarkMode={toggleDarkMode}>
           {/* Il wrapper AnimatePresence dovrebbe essere posizionato intorno alle rotte */}
           <AnimatePresence mode="wait">
