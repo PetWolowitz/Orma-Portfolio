@@ -1,4 +1,4 @@
-Orma Il Viandante - Portfolio Artistico https://orma-il-viandante-portfolio.purplecoast.it/
+Orma Il Viandante - Portfolio Artistico https://www.ormailviandante.com/
 🎨 Overview
 Orma Il Viandante è il portfolio digitale di un artista poliedrico che spazia dalla street art alla pittura tradizionale. L'applicazione web presenta le opere dell'artista attraverso un'interfaccia moderna e coinvolgente, offrendo ai visitatori un'immersione completa nel suo universo creativo.
 🚀 Caratteristiche Principali
@@ -48,4 +48,4 @@ SEO ottimizzato per maggiore visibilità
 
 Orma il Viandante
 Instagram: [@orma_the_wanderer]
-https://orma-il-viandante-portfolio.purplecoast.it/
+https://www.ormailviandante.com/
