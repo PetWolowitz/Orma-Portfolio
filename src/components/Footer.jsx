@@ -41,9 +41,12 @@ export default function Footer() {
         </div>
 
         {/* Testo Footer */}
+        <div>
         <p className="text-center text-xl font-stencil font-thin text-dark dark:text-white bg-primary-footer dark:bg-gray-800 rounded-md p-3">
           © {new Date().getFullYear()} Orma Il Viandante. All rights reserved.
         </p>
+        </div>
+      
       </div>
     </footer>
   );
